@@ -19,8 +19,10 @@
             <label for="preco">Preço</label>
             <input type="number" class="form-control" id="preco" [(ngModel)]="produto.preco" name="preco" required>
         </div>
-
-        <button type="submit" class="btn mt-4 mb-4" [disabled]="!produtoForm.form.valid">Salvar</button>
+        <div class="botao">
+            <button type="submit" class="btn mt-4 mb-4" [disabled]="!produtoForm.form.valid">Salvar</button>
+        </div>
+        
     </form>
 
 

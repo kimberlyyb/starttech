@@ -15,15 +15,24 @@ h2{
     padding: 12px;
 }
 .table th {
-    background-color: #ff002fbd;
+    background-color: #01403A;
     color: #ffff;
 }
-
-
 .btn{
-    background-color: #c51432da;
+    background-color: #027368;
     color: #ffffff;
+    border: none;
 }
 .btn:hover{
-    background-color: #ff002f ;
+    background-color: #038C7F ;
+}
+.btnn2{
+    background-color:#038C7F;
+    border: none;
+}
+.btnn2:hover{
+    background-color: #027368;
+}
+.btn-sm{
+    margin-left: 2%;
 }

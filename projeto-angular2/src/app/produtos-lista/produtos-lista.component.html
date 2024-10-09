@@ -19,7 +19,7 @@
                 <td>{{produto.preco | currency:'BRL'}}</td>
                 <td>
                     <button class="btn btn-sm" [routerLink]="['/produtos-form',produto.id]">Editar</button>
-                    <button class="btn btn-danger btn-sm" (click)="deletarProduto(produto.id)">Excluir</button>
+                    <button class="btn btnn2 btn-danger btn-sm" (click)="deletarProduto(produto.id)">Excluir</button>
                 </td>
             </tr>
         </tbody>
