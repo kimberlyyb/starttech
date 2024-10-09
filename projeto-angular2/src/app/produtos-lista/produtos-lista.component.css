@@ -1,3 +1,25 @@
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.container{
+    padding: 45px ;
+}
+.table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.table th, .table td{
+    text-align: center;
+    padding: 12px;
+}
+.table th {
+    background-color: #ff002fbd;
+    color: #ffff;
+}
+
+
 .btn{
     background-color: #c51432da;
     color: #ffffff;
