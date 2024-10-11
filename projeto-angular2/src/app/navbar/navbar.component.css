@@ -4,4 +4,12 @@
 }
 .navbar-brand{
     color: #ffffff;
+    font-size: medium;
+   margin: 15%;
+}
+.navbar-brand:hover{
+    color: #038C7F;
+}
+.nav2{
+    text-align: left;
 }
